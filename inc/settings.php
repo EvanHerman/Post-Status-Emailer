@@ -1,6 +1,10 @@
 <?php
 
-if ( ! defined( 'ABSPATH' ) ) exit;
+if ( ! defined( 'ABSPATH' ) ) {
+
+	exit;
+
+}
 
 /**
  * Class EH_Email_Notifier_Settings

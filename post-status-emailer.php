@@ -2,7 +2,7 @@
 /*
 Plugin Name: Post Status Emailer
 Plugin URI: https://www.wordpress.org
-Description: Email users when a post type status changes to a set status. Made for Amber Hinds.
+Description: Notify up to two users when a post status transitions from one state to another. Made for Amber Hinds.
 Version: 1.0.0
 Author: Evan Herman
 Author URI: https://www.wordpress.org
@@ -10,7 +10,11 @@ License: GPLv3 or later
 Text-Domain: post-status-emailer
 */
 
-if ( ! defined( 'ABSPATH' ) ) exit;
+if ( ! defined( 'ABSPATH' ) ) {
+
+	exit;
+
+}
 
 /**
  * Class EH_Email_Notifier_Settings
